@@ -13,7 +13,7 @@ spec:
         spec:
             containers:
                 - name: complete-prodcution-e2e-app
-                  image: maverick0809/complete-prodcution-e2e-pipeline
+                  image: maverick0809/complete-prodcution-e2e-pipeline:1.51.1
                   resources:
                       limits:
                           memory: '256Mi'
